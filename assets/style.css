@@ -106,3 +106,18 @@ nav {
 .black {
     background-color: black;
 }
+
+.bottom {
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.space {
+    padding: 1rem 0;
+}
+
+button {
+    border: 1px dashed black;
+    padding: 0.25rem;
+}
+ 
