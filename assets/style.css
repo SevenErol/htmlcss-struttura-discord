@@ -34,8 +34,26 @@ nav {
 
 .one {
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .accedi {
     text-align: end;
+}
+
+.two {
+    height: 85%;
+    background-color: blue;
+    position: relative;
+}
+
+.red_box {
+    height: 80%;
+    width: 50%;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px dashed black;
 }
