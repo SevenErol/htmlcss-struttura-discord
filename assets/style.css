@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#site_header {
+    background-color: aquamarine;
+    height: 400px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo, .accedi{
+    width: calc((100% / 12) * 3);
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+nav {
+    width: calc((100% / 12) * 6);
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.one {
+    padding-top: 1rem;
+}
+
+.accedi {
+    text-align: end;
+}
