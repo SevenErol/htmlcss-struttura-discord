@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --nav-basic: #ffffff;
+    --nav-hover: red;
+    --button-head: #7289DA;
+    --button-dark-head: #F6F6F6;
+    --black-text: black;
+}
+
+#site_header {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* #region logo-nav-access */
+
+.logo,
+.access {
+    width: calc((100% / 12) * 3);
+    vertical-align: middle;
+}
+
+nav {
+    width: calc((100% / 12) * 6);
+    text-align: center;
+}
+
+img {
+    height: 2rem;
+}
+
+a {
+    vertical-align: middle;
+    text-decoration: none;
+    color: var(--nav-basic);
+    padding: 1rem;
+}
+
+a:hover {
+    color: var(--nav-hover);
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.access {
+    text-align: end;
+}
+
+button {
+    border-radius: 1rem;
+    border-width: 0rem;
+    appearance: none;
+    padding: 8px;
+    font-size: 1rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
+button:hover {
+    background-color: var(--button-head);
+    transition-duration: 0.4s ;
+    cursor: pointer;
+}
+
+#open_with_browser:hover {
+    background-color: var(--button-dark-head);
+    color: var(--black-text);
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.spacing {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* #endregion logo-nav-access */
+
+/* #region topic and buttons */
+.second_box {
+    height: 85%;
+    position: relative;
+}
+
+.topic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1, p {
+    padding-bottom: 2rem;
+    color: #ffffff;
+}
+
+#mac_download {
+    margin-right: 2rem;
+}
+
+#open_with_browser {
+    background-color: #23272A;
+    color: #ffffff;
+}
+
+/* #endregion topic and buttons */
+
+.col-9 {
+    width: calc((100% / 12) * 9);
+    height: 350px;
+    background-color: turquoise;
+    border: 1px dashed black;
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+    height: 350px;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.part {
+    padding: 1rem;
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+.green_box {
+    width: 100%;
+    height: 600px;
+    background-color: green;
+    border: 1px dashed black;
+}
+
+.col-2 {
+    width: calc((100% / 12)*2);
+    height: 350px;
+    background-color: aqua;
+    border: 1px dashed #ffffff;
+}
+
+.col-4 {
+    width: calc((100% / 12)*4);
+    height: 350px;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.black {
+    background-color: black;
+}
+
+.bottom {
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.space {
+    padding: 1rem 0;
+}
+
+/* button {
+    border: 1px dashed black;
+    padding: 0.25rem;
+} */
