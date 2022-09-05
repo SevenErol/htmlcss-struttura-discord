@@ -10,7 +10,7 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 1200px;
     margin: auto;
 }
@@ -30,6 +30,7 @@ nav {
     width: calc((100% / 12) * 6);
     background-color: orange;
     border: 1px dashed black;
+    text-align: center;
 }
 
 .one {
@@ -56,4 +57,26 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px dashed black;
+}
+
+.col-9 {
+    width: calc((100% / 12) * 9);
+    height: 350px;
+    background-color: turquoise;
+    border: 1px dashed black;
+}
+
+.col-3 {
+    width: calc((100% / 12) * 3);
+    height: 350px;
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.part {
+    padding: 1rem;
+}
+
+.grey {
+    background-color: lightgrey;
 }
