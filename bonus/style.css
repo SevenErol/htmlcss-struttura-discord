@@ -28,7 +28,6 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 2rem;
 }
 
 /* #region logo-nav-access */
@@ -121,7 +120,7 @@ p {
     color: #ffffff;
 }
 
-#mac_download {
+.mac_download {
     margin-right: 2rem;
 }
 
@@ -131,6 +130,8 @@ p {
 }
 
 /* #endregion topic and buttons */
+
+/* #region main pattern */
 
 .col-9 {
     width: calc((100% / 12) * 9);
@@ -148,14 +149,11 @@ p {
 .col-3 > h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .col-3  p {
     font-family: 'Source Serif Pro', serif;
-}
-
-h2 {
-    margin-bottom: 1rem;
 }
 
 #adjust {
@@ -166,18 +164,62 @@ h2 {
     background-color: lightgrey;
 }
 
-/* .wave {
+.wave {
     background-image: url(./img/wave.svg);
     background-size: cover;
-    background-repeat: no-repeat;
-} */
-
-.green_box {
+    height: 50px;
     width: 100%;
-    height: 600px;
-    background-color: green;
-    border: 1px dashed black;
+    filter: invert(83%);
+} 
+
+.reverse {
+    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
+
+/* #endregion main pattern  */
+
+/* #region last description */
+.last_description img {
+    height: 600px;
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.last_description > h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.last_description  p {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.star_effect {
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    height: 40px;
+    margin-bottom: 2rem; 
+    padding: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bottom {
+    background-color: var(--button-head);
+    color: var(--nav-basic);
+}
+
+/* #endregion last description */
 
 .col-2 {
     width: calc((100% / 12)*2);
@@ -197,10 +239,10 @@ h2 {
     background-color: black;
 }
 
-.bottom {
+/* .bottom {
     background-color: aqua;
     justify-content: space-between;
-}
+} */
 
 .space {
     padding: 1rem 0;
