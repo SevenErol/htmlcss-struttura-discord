@@ -299,6 +299,11 @@ i:hover {
 
 /* #endregion col-2 */
 
-.space {
-    padding: 1rem 0;
+/* #region final row */
+
+.final {
+    padding: 0.5rem 0;
+    justify-content: space-between;
 }
+
+/* #endregion final row */
