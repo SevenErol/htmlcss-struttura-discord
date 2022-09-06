@@ -189,6 +189,7 @@ p {
 .center {
     text-align: center;
     padding-top: 4rem;
+    padding-bottom: 2rem;
 }
 
 .last_description > h2 {
@@ -222,19 +223,16 @@ p {
 
 /* #endregion last description */
 
-.col-2 {
-    width: calc((100% / 12)*2);
-    height: 350px;
-    background-color: aqua;
-    border: 1px dashed #ffffff;
-}
-
-.col-4 {
-    width: calc((100% / 12)*4);
-    height: 350px;
+.black_bg {
+    background-color: var(--black-bg);
+    padding: 2rem;
 }
 
 /* #region col-4 */
+
+.col-4 {
+    width: calc((100% / 12)*4);
+}
 
 .col-4 h3 {
     color: var(--button-head);
@@ -275,10 +273,31 @@ i:hover {
 }
 /* #endregion col-4 */
 
-.black_bg {
-    background-color: var(--black-bg);
-    padding: 2rem;
+/* #region col-2  */
+.col-2 {
+    width: calc((100% / 12)*2);
 }
+
+.col-2 a {
+    padding: 0rem;
+}
+
+.col-2 h4 {
+    color: var(--button-head);
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.info_link {
+    margin-bottom: 1rem;
+}
+
+
+.border {
+    border-bottom: 2px solid var(--button-head);
+}
+
+/* #endregion col-2 */
 
 .space {
     padding: 1rem 0;
