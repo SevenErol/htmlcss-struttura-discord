@@ -10,6 +10,7 @@
     --button-head: #7289DA;
     --button-dark-head: #F6F6F6;
     --black-text: black;
+    --black-bg: #23272A;
 }
 
 #site_header {
@@ -207,7 +208,7 @@ p {
     background-position: center;
 }
 
-h3 {
+.star_effect h3 {
     height: 40px;
     margin-bottom: 2rem; 
     padding: 1.5rem;
@@ -231,24 +232,54 @@ h3 {
 .col-4 {
     width: calc((100% / 12)*4);
     height: 350px;
-    background-color: orange;
-    border: 1px dashed black;
 }
 
-.black {
-    background-color: black;
+/* #region col-4 */
+
+.col-4 h3 {
+    color: var(--button-head);
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 1.5rem;
 }
 
-/* .bottom {
-    background-color: aqua;
-    justify-content: space-between;
-} */
+#languages {
+    margin-bottom: 1rem;
+}
+
+#languages img {
+    height: 20px;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.text_color {
+    color: var(--nav-basic);
+    vertical-align: middle;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#logos {
+    color: var(--nav-basic);
+    font-size: larger;
+}
+
+i {
+    margin-right: 1rem;
+}
+
+i:hover {
+    color: var(--nav-hover);
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* #endregion col-4 */
+
+.black_bg {
+    background-color: var(--black-bg);
+    padding: 2rem;
+}
 
 .space {
     padding: 1rem 0;
 }
-
-/* button {
-    border: 1px dashed black;
-    padding: 0.25rem;
-} */
